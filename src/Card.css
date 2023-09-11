@@ -1,0 +1,57 @@
+h1
+{
+    color: aliceblue;
+}
+
+.header
+{
+    text-align: center;
+}
+
+.content
+{
+    text-align: center;
+}
+
+.name
+{
+    font-weight: 600;
+    font-size: larger;
+    color: #f4fdff;
+    margin: 0;
+}
+
+.uname
+{
+    font-weight: 600;
+    font-size: large;
+    color: #36827f;
+    margin: 0;
+}
+
+.mail
+{
+    color: #222e50;
+}
+
+.card
+{
+    background-color: #495159;
+}
+
+.card:hover
+{
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+    background-color: #000000;
+}
+
+span:nth-child(odd)
+{
+    color: #495159;
+}
+
+span:nth-child(even)
+{
+    color: #c0c0c0;
+}
